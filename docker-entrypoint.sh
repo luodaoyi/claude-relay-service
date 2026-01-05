@@ -47,7 +47,7 @@ if [ ! -f "/app/data/init.json" ]; then
   fi
   
   # 执行初始化脚本
-  node /app/scripts/setup.js
+  bun /app/scripts/setup.js
   
   echo "✅ 初始化完成"
 else
